@@ -101,7 +101,6 @@ body {
 
 .header .header_center ul {
     text-align: center;
-
 }
 
 .header .header_center ul li {
@@ -113,6 +112,16 @@ body {
 
 .header .header_center ul li:nth-child(1) {
     background-color: #006BC7;
+}
+
+.header .header_center ul li:nth-child(2) {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.header .header_center ul li:nth-child(3) {
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .header .header_center ul li:hover {
@@ -160,7 +169,7 @@ body {
     color: white;
 }
 
-.header .header_center .header_center_regular>li:hover .header_center_hove {
+.header .header_center .header_center_regular > li:hover .header_center_hove {
     opacity: 1;
     z-index: 20;
 }
@@ -338,7 +347,7 @@ body {
 
 .content .content_top .sp {
     font-size: 12px;
-    color: #999999;
+    color: #B2B2B2;
 }
 
 .content .content_top a {
