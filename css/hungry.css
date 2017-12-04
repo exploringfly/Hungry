@@ -154,18 +154,15 @@ body {
     position: absolute;
     /*background-color: #ff5e28;*/
     margin-top: -12px;
-    z-index: 99;
 }
 
 .header .header_center .header_center_regular li:hover a {
     color: white;
 }
 
-.header .header_center .header_center_regular li:hover {
-}
-
-.header .header_center .header_center_regular li:hover .header_center_hove {
+.header .header_center .header_center_regular>li:hover .header_center_hove {
     opacity: 1;
+    z-index: 20;
 }
 
 .header .header_center .header_center_regular > li > a {
@@ -335,6 +332,10 @@ body {
     display: inline-block;
 }
 
+.content .content_top .content_top_left span {
+    color: #0089DC;
+}
+
 .content .content_top .sp {
     font-size: 12px;
     color: #999999;
@@ -452,6 +453,20 @@ body {
     border-bottom: 1px solid #E6E6E6;
 }
 
+.content .content_list .content_list_one:hover {
+    background-color: #F5F5F5;
+
+}
+
+.content .content_list .content_list_one:hover b {
+    color: #3695CE;
+}
+
+.content .content_list .content_list_one:hover #message {
+    opacity: 1;
+    z-index: 20;
+}
+
 .content .content_list .content_list_one .content_list_logo {
     width: 111px;
     height: 137px;
@@ -526,6 +541,15 @@ body {
     line-height: 54px;
     color: #777777;
     font-size: 18px;
+}
+
+#message {
+    position: absolute;
+    width: 305px;
+    height: 305px;
+    opacity: 0;
+    left: 287px;
+    top: -1px;
 }
 
 /*尾部区域*/
